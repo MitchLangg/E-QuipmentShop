@@ -12,14 +12,20 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/navigation_dashboard"
+        android:id="@+id/navigation_rules"
         android:name="mitchell.lang.e_quipmentshop.ui.dashboard.DashboardFragment"
-        android:label="@string/title_dashboard"
+        android:label="@string/title_rules"
         tools:layout="@layout/fragment_dashboard" />
 
     <fragment
-        android:id="@+id/navigation_notifications"
+        android:id="@+id/navigation_equipment"
         android:name="mitchell.lang.e_quipmentshop.ui.notifications.NotificationsFragment"
-        android:label="@string/title_notifications"
+        android:label="@string/title_equipment"
+        tools:layout="@layout/fragment_notifications" />
+
+    <fragment
+        android:id="@+id/navigation_stickpick"
+        android:name="mitchell.lang.e_quipmentshop.ui.notifications.NotificationsFragment"
+        android:label="@string/title_stickpick"
         tools:layout="@layout/fragment_notifications" />
 </navigation>

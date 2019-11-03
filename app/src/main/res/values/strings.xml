@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">E-quipmentShop</string>
     <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="title_rules">Rules</string>
+    <string name="title_equipment">Equipment</string>
+    <string name="title_stickpick">Stick Pick</string>
 </resources>
