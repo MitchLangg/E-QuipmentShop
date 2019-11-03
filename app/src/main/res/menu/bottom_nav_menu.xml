@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-
     <item
-        android:id="@+id/navigation_home"
-        android:icon="@drawable/ic_home_black_24dp"
-        android:title="@string/title_home" />
-
+        android:id="@+id/navigation_stickpick"
+        android:icon="@drawable/ic_shopping_basket_black_24dp"
+        android:title="@string/title_stickpick"
+        />
     <item
         android:id="@+id/navigation_rules"
         android:icon="@drawable/ic_content_paste_black_24dp"
         android:title="@string/title_rules" />
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/title_home" />
 
     <item
         android:id="@+id/navigation_equipment"
@@ -17,9 +20,8 @@
         android:title="@string/title_equipment" />
 
     <item
-        android:id="@+id/navigation_stickpick"
-        android:icon="@drawable/ic_shopping_basket_black_24dp"
-        android:title="@string/title_stickpick"
-        />
+        android:id="@+id/navigation_settings"
+        android:icon="@drawable/ic_settings_black_24dp"
+        android:title="@string/title_settings" />
 
 </menu>
