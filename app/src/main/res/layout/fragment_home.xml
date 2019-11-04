@@ -60,6 +60,29 @@
             android:textSize="14sp"
             android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ut enim placerat, congue augue et, sagittis est. Vivamus quis arcu et metus mollis pellentesque ac quis lacus. Ut sit amet ipsum vehicula, tristique nisl sit amet, lobortis risus. Donec a augue sed ipsum scelerisque pellentesque. Donec sed urna scelerisque, ornare turpis ac, facilisis lacus. Sed lobortis mauris in nisl posuere, a malesuada ligula ullamcorper. Nunc placerat pellentesque ornare." />
         />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif-black"
+            android:textSize="20sp"
+            android:text="Who are we?" />
+        />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif-smallcaps"
+            android:background="@color/textBackground"
+            android:textSize="14sp"
+            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ut enim placerat, congue augue et, sagittis est. Vivamus quis arcu et metus mollis pellentesque ac quis lacus. Ut sit amet ipsum vehicula, tristique nisl sit amet, lobortis risus. Donec a augue sed ipsum scelerisque pellentesque. Donec sed urna scelerisque, ornare turpis ac, facilisis lacus. Sed lobortis mauris in nisl posuere, a malesuada ligula ullamcorper. Nunc placerat pellentesque ornare." />
+        />
     </LinearLayout>
     </ScrollView>
 </FrameLayout>
