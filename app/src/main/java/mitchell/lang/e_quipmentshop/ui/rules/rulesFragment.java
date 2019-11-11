@@ -10,7 +10,12 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import java.util.ArrayList;
+
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 import mitchell.lang.e_quipmentshop.R;
+import mitchell.lang.e_quipmentshop.ui.Rule;
 
 
 public class rulesFragment extends Fragment {
@@ -25,7 +30,13 @@ public class rulesFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_rules, container, false);
+        View view = inflater.inflate(R.layout.fragment_rules, container, false);
+        RecyclerView recyclerView = view.findViewById(R.id.ruleRecyclerView);
+        recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
+
+        ArrayList<Rule> ruleArrayList = new ArrayList<>();
+
+       return view;
     }
 
 }
