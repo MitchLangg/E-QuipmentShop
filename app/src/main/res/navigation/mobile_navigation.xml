@@ -13,25 +13,25 @@
 
     <fragment
         android:id="@+id/navigation_rules"
-        android:name="mitchell.lang.e_quipmentshop.ui.dashboard.DashboardFragment"
+        android:name="mitchell.lang.e_quipmentshop.ui.rules.rulesFragment"
         android:label="@string/title_rules"
         tools:layout="@layout/fragment_dashboard" />
 
     <fragment
         android:id="@+id/navigation_equipment"
-        android:name="mitchell.lang.e_quipmentshop.ui.notifications.NotificationsFragment"
+        android:name="mitchell.lang.e_quipmentshop.ui.equipment.equipmentFragment"
         android:label="@string/title_equipment"
         tools:layout="@layout/fragment_notifications" />
 
     <fragment
         android:id="@+id/navigation_stickpick"
-        android:name="mitchell.lang.e_quipmentshop.ui.notifications.NotificationsFragment"
+        android:name="mitchell.lang.e_quipmentshop.ui.stickpick.stickPickFragment"
         android:label="@string/title_stickpick"
         tools:layout="@layout/fragment_notifications" />
 
     <fragment
         android:id="@+id/navigation_settings"
-        android:name="mitchell.lang.e_quipmentshop.ui.notifications.NotificationsFragment"
+        android:name="mitchell.lang.e_quipmentshop.ui.settings.settingsFragment"
         android:label="@string/title_settings"
         tools:layout="@layout/fragment_notifications" />
 </navigation>
