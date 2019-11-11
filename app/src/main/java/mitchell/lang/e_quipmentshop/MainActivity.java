@@ -13,7 +13,11 @@ import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
+import mitchell.lang.e_quipmentshop.ui.equipment.equipmentFragment;
 import mitchell.lang.e_quipmentshop.ui.home.HomeFragment;
+import mitchell.lang.e_quipmentshop.ui.rules.rulesFragment;
+import mitchell.lang.e_quipmentshop.ui.settings.settingsFragment;
+import mitchell.lang.e_quipmentshop.ui.stickpick.stickPickFragment;
 
 public class MainActivity extends AppCompatActivity {
     FragmentManager fm;
@@ -29,6 +33,26 @@ public class MainActivity extends AppCompatActivity {
                     transaction.addToBackStack(null);
                     transaction.commit();
                     return true;
+                case R.id.navigation_equipment:
+                    transaction.replace(R.id.content, new equipmentFragment());
+                    transaction.addToBackStack(null);
+                    transaction.commit();
+                    return true;
+                case R.id.navigation_rules:
+                    transaction.replace(R.id.content, new rulesFragment());
+                    transaction.addToBackStack(null);
+                    transaction.commit();
+                    return true;
+                case R.id.navigation_stickpick:
+                    transaction.replace(R.id.content, new stickPickFragment());
+                    transaction.addToBackStack(null);
+                    transaction.commit();
+                    return true;
+                case R.id.navigation_settings:
+                    transaction.replace(R.id.content, new settingsFragment());
+                    transaction.addToBackStack(null);
+                    transaction.commit();
+                    return true;
             }
             return false;
         }
@@ -41,7 +65,7 @@ public class MainActivity extends AppCompatActivity {
         // Passing each menu ID as a set of Ids because each
         // menu should be considered as top level destinations.
         AppBarConfiguration appBarConfiguration = new AppBarConfiguration.Builder(
-                R.id.navigation_home, R.id.navigation_rules, R.id.navigation_equipment, R.id.navigation_stickpick)
+                R.id.navigation_home, R.id.navigation_rules, R.id.navigation_equipment, R.id.navigation_stickpick, R.id.navigation_settings)
                 .build();
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
         NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
