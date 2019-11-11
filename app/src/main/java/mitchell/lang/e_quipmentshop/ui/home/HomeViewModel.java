@@ -14,7 +14,7 @@ public class HomeViewModel extends ViewModel {
         mText.setValue("This is home fragment");
         titleText = new MutableLiveData<>();
         titleText.setValue("Hockey");
-
+    //test
     }
 
     public LiveData<String> getText() {
