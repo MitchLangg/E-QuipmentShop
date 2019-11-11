@@ -13,7 +13,8 @@ import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
-import mitchell.lang.e_quipmentshop.ui.equipment.equipmentFragment;
+import mitchell.lang.e_quipmentshop.ui.equipment.ItemFragment;
+import mitchell.lang.e_quipmentshop.ui.equipment.ItemFragment;
 import mitchell.lang.e_quipmentshop.ui.home.HomeFragment;
 import mitchell.lang.e_quipmentshop.ui.rules.rulesFragment;
 import mitchell.lang.e_quipmentshop.ui.settings.settingsFragment;
@@ -34,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
                     transaction.commit();
                     return true;
                 case R.id.navigation_equipment:
-                    transaction.replace(R.id.content, new equipmentFragment());
+                    transaction.replace(R.id.content, new ItemFragment());
                     transaction.addToBackStack(null);
                     transaction.commit();
                     return true;
