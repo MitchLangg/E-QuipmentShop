@@ -19,7 +19,7 @@
 
     <fragment
         android:id="@+id/navigation_equipment"
-        android:name="mitchell.lang.e_quipmentshop.ui.equipment.equipmentFragment"
+        android:name="mitchell.lang.e_quipmentshop.ui.equipment.ItemFragment"
         android:label="@string/title_equipment"
         tools:layout="@layout/fragment_notifications" />
 
