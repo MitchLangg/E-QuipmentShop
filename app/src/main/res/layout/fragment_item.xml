@@ -12,28 +12,28 @@
         android:layout_width="match_parent"
         android:layout_height="319dp"
         android:layout_weight="2"
-        android:background="@color/colorPrimary"
-        android:fontFamily="monospace"
+        android:background="#f7f7f7"
+        android:fontFamily="sans-serif-smallcaps"
         android:text="E-Quipment Learner"
         android:textAlignment="center"
         android:textAllCaps="true"
-        android:textColor="@color/colorPrimaryDark"
+        android:textColor="#ad6a6a"
         android:textSize="30sp"
-        android:textStyle="bold|italic" />
+         />
 
     <ImageView
         android:id="@+id/itemDefinition"
         android:layout_width="match_parent"
         android:layout_height="116dp"
-        android:background="@color/colorPrimary"
-        android:src="@color/colorPrimary"></ImageView>
+        android:background="#f7f7f7"
+        android:src="#f7f7f7"></ImageView>
 
 
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="250dp"
         android:layout_weight="2"
-        android:background="@color/colorPrimary">
+        android:background="#f7f7f7">
 
     </ScrollView>
 
@@ -41,9 +41,10 @@
         android:id="@+id/spacer"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/cardview_dark_background"
+        android:background="#a1a1a1"
+        android:textAlignment="center"
         android:text="Select an Item:"
-        android:textColor="@color/colorPrimaryDark"
+        android:textColor="#ad6a6a"
         android:textSize="24sp" />
 
     <ListView
@@ -51,7 +52,8 @@
         android:layout_width="match_parent"
         android:layout_height="395dp"
         android:layout_weight="1"
-        android:background="@color/colorPrimary">
+        android:textAlignment="center"
+        android:background="#f7f7f7">
 
     </ListView>
 </LinearLayout>

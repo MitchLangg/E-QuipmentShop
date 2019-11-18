@@ -11,6 +11,8 @@
         android:layout_height="wrap_content"
         android:layout_weight="0"
         android:text=""
-        android:textColor="@color/colorPrimaryDark"
-        android:textSize="36sp" />
+        android:textColor="#ad6a6a"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textSize="30sp" />
 </LinearLayout>

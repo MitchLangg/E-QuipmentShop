@@ -2,6 +2,7 @@ package mitchell.lang.e_quipmentshop.ui.equipment;
 
 
 import android.content.Context;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -27,6 +28,7 @@ public class ItemFragment extends Fragment {
 
     ImageView itemDefinition;
     ListView listView;
+
 
     public ItemFragment() {
     }
@@ -90,6 +92,7 @@ public class ItemFragment extends Fragment {
             }
             TextView name = convertView.findViewById(R.id.name);
             name.setText(item.getName());
+
             return  convertView;
         }
     }
