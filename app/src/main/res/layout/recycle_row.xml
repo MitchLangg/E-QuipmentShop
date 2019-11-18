@@ -4,22 +4,38 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#faf2e3"
+        android:padding="10dp"
+        >
     <TextView
         android:id="@+id/name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="TextView"
-        android:textColor="#fc6060"
-        android:textSize="36sp"
-        app:fontFamily="sans-serif-thin" />
+        android:textAlignment="center"
+        android:textColor="#ad6a6a"
+        android:textSize="30sp"
+        app:fontFamily="sans-serif-condensed-medium"
+        android:textStyle="bold"/>
 
     <TextView
         android:id="@+id/definition"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="5dp"
+        android:padding="10dp"
+        android:textAlignment="center"
         android:text="TextView"
         android:textSize="18sp"
-        android:textStyle="italic"
         app:fontFamily="sans-serif" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"/>
+
 </LinearLayout>

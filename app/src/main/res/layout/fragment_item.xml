@@ -41,7 +41,7 @@
         android:id="@+id/spacer"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#a1a1a1"
+        android:background="#d1be9b"
         android:textAlignment="center"
         android:text="Select an Item:"
         android:textColor="#ad6a6a"

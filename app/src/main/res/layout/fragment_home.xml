@@ -27,6 +27,7 @@
             android:fontFamily="sans-serif-black"
             android:text="What is Hockey?"
             android:padding="10dp"
+            android:textColor="#ad6a6a"
             android:textAlignment="center"
             android:textSize="20sp"
             android:typeface="serif" />
@@ -47,6 +48,7 @@
             android:layout_weight="1"
             android:fontFamily="sans-serif-black"
             android:padding="10dp"
+            android:textColor="#ad6a6a"
             android:text="What is this app?"
             android:textAlignment="center"
             android:textSize="20sp"
@@ -69,14 +71,10 @@
             android:padding="10dp"
             android:textAlignment="center"
             android:layout_weight="1"
+            android:textColor="#ad6a6a"
             android:fontFamily="sans-serif-black"
             android:textSize="20sp"
-            android:text="Why did we make this app?" /><![CDATA[
-            />
-
-        />
-
-        ]]>
+            android:text="Why did we make this app?" />
 
         <TextView
             android:layout_width="match_parent"
@@ -95,6 +93,7 @@
             android:padding="10dp"
             android:textAlignment="center"
             android:layout_weight="1"
+            android:textColor="#ad6a6a"
             android:fontFamily="sans-serif-black"
             android:textSize="20sp"
             android:text="Who are we?" />
