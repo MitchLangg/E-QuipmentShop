@@ -6,9 +6,22 @@
     tools:context=".ui.settings.settingsFragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Click one of the setting below:"/>
+
+        <Button
+            android:id="@+id/tipsButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hockey Tips!" />
+
+    </LinearLayout>
 
 </FrameLayout>
