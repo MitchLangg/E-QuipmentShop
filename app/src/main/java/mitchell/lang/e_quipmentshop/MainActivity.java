@@ -71,5 +71,19 @@ public class MainActivity extends AppCompatActivity {
         NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
         NavigationUI.setupWithNavController(navView, navController);
 
+        //for button in settings
+            super.onCreate(savedInstanceState);
+            setContentView(R.layout.activity_main);
+            //Grabbing the fragment manager
+            FragmentManager fm = getSupportFragmentManager();
+            //Create a FragmentTransaction
+            //Place the MainFragment where R.id.content is
+            FragmentTransaction transaction = fm.beginTransaction();
+            //Replace whatever is inside R.id.content (FrameLayout)
+            //with a new MainFragment
+            transaction.replace(R.id.content, new settingsFragment());
+            //process the transaction
+            transaction.commit();
+        }
     }
-}
+
