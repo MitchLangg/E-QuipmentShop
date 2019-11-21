@@ -23,6 +23,8 @@ import mitchell.lang.e_quipmentshop.ui.rules.CustomRecyclerViewAdapter;
  * A simple {@link Fragment} subclass.
  */
 public class tipsListFragment extends Fragment {
+    FragmentManager fm;
+    SharedPreferences sharedPreferences;
 
     public tipsListFragment() {
         // Required empty public constructor
@@ -43,7 +45,7 @@ public class tipsListFragment extends Fragment {
         terms.add(new Term("PRACTICE", "Your muscles have memory, and if you practice enough they can perform things automatically just like tying your shoes or walking. Before you start practicing, you need to know WHAT to practice and HOW to practice."));
 
         RecyclerView recyclerView = view.findViewById(R.id.recycle);
-       LinearLayoutManager manager = new LinearLayoutManager(getContext());
+        LinearLayoutManager manager = new LinearLayoutManager(getContext());
         manager.setOrientation(RecyclerView.HORIZONTAL);
         recyclerView.setLayoutManager(manager);
         recyclerView.setLayoutManager(new GridLayoutManager(getContext(), 3));

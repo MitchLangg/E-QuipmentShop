@@ -32,7 +32,7 @@ public class settingsFragment extends Fragment {
             tipsButton.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                    new settingsFragment();
+
                 }
             });
             return view;

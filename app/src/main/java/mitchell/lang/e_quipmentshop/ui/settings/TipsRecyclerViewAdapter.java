@@ -23,15 +23,15 @@ public class TipsRecyclerViewAdapter extends RecyclerView.Adapter {
                                                       int viewType) {
         View view = LayoutInflater.from(parent.getContext())
                 .inflate(R.layout.recycle_layout, null);
-        CustomViewHolder viewHolder = new CustomViewHolder(view);
+        TipsViewHolder viewHolder = new TipsViewHolder(view);
         return viewHolder;
     }
     @Override
     public void onBindViewHolder(@NonNull RecyclerView.ViewHolder holder,
                                  int position) {
         Term term = terms.get(position);
-        ((CustomViewHolder)holder).definition.setText(term.getDefinition());
-        ((CustomViewHolder)holder).name.setText(term.getName());
+        ((TipsViewHolder)holder).definition.setText(term.getDefinition());
+        ((TipsViewHolder)holder).name.setText(term.getName());
     }
     @Override
     public int getItemCount() {
@@ -40,11 +40,11 @@ public class TipsRecyclerViewAdapter extends RecyclerView.Adapter {
         }
         return 0;
     }
-    class CustomViewHolder extends RecyclerView.ViewHolder{
+    class TipsViewHolder extends RecyclerView.ViewHolder{
         protected TextView name;
         protected TextView definition;
 
-        public CustomViewHolder(View view){
+        public TipsViewHolder(View view){
             super(view);
             this.name = view.findViewById(R.id.name);
             this.definition = view.findViewById(R.id.definition);
