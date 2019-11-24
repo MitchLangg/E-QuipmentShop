@@ -21,6 +21,7 @@
         android:textSize="30sp"
          />
 
+
     <ImageView
         android:id="@+id/itemDefinition"
         android:layout_width="match_parent"
@@ -29,11 +30,24 @@
         android:src="#f7f7f7"></ImageView>
 
 
+
+
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="250dp"
         android:layout_weight="2"
         android:background="#f7f7f7">
+
+        <TextView
+            android:id="@+id/itemDescription"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAlignment="center"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif-smallcaps"
+            android:background="@color/textBackground"
+            android:textSize="20sp"
+            android:text="description"/>
 
     </ScrollView>
 
