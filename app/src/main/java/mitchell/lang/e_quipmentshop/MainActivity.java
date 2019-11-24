@@ -70,7 +70,7 @@ public class MainActivity extends AppCompatActivity {
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
         NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
         NavigationUI.setupWithNavController(navView, navController);
-
+/*
         //for button in settings
             super.onCreate(savedInstanceState);
             setContentView(R.layout.activity_main);
@@ -84,6 +84,8 @@ public class MainActivity extends AppCompatActivity {
             transaction.replace(R.id.content, new settingsFragment());
             //process the transaction
             transaction.commit();
+
+ */
         }
     }
 

@@ -29,7 +29,7 @@
             android:padding="10dp"
             android:textColor="#ad6a6a"
             android:textAlignment="center"
-            android:textSize="20sp"
+            android:textSize="30sp"
             android:typeface="serif" />
 
         <TextView
@@ -39,7 +39,7 @@
             android:padding="10dp"
             android:textAlignment="center"
             android:background="@color/textBackground"
-            android:textSize="14sp"
+            android:textSize="20sp"
             android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ut enim placerat, congue augue et, sagittis est. Vivamus quis arcu et metus mollis pellentesque ac quis lacus. Ut sit amet ipsum vehicula, tristique nisl sit amet, lobortis risus. Donec a augue sed ipsum scelerisque pellentesque. Donec sed urna scelerisque, ornare turpis ac, facilisis lacus. Sed lobortis mauris in nisl posuere, a malesuada ligula ullamcorper. Nunc placerat pellentesque ornare. " />
 
         <TextView
@@ -51,7 +51,7 @@
             android:textColor="#ad6a6a"
             android:text="What is this app?"
             android:textAlignment="center"
-            android:textSize="20sp"
+            android:textSize="30sp"
             android:typeface="serif"/>
 
         <TextView
@@ -61,7 +61,7 @@
             android:padding="10dp"
             android:textAlignment="center"
             android:background="@color/textBackground"
-            android:textSize="14sp"
+            android:textSize="20sp"
             android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ut enim placerat, congue augue et, sagittis est. Vivamus quis arcu et metus mollis pellentesque ac quis lacus. Ut sit amet ipsum vehicula, tristique nisl sit amet, lobortis risus. Donec a augue sed ipsum scelerisque pellentesque. Donec sed urna scelerisque, ornare turpis ac, facilisis lacus. Sed lobortis mauris in nisl posuere, a malesuada ligula ullamcorper. Nunc placerat pellentesque ornare. " />
             />
 
@@ -73,7 +73,7 @@
             android:layout_weight="1"
             android:textColor="#ad6a6a"
             android:fontFamily="sans-serif-black"
-            android:textSize="20sp"
+            android:textSize="30sp"
             android:text="Why did we make this app?" />
 
         <TextView
@@ -85,7 +85,7 @@
             android:padding="10dp"
             android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ut enim placerat, congue augue et, sagittis est. Vivamus quis arcu et metus mollis pellentesque ac quis lacus. Ut sit amet ipsum vehicula, tristique nisl sit amet, lobortis risus. Donec a augue sed ipsum scelerisque pellentesque. Donec sed urna scelerisque, ornare turpis ac, facilisis lacus. Sed lobortis mauris in nisl posuere, a malesuada ligula ullamcorper. Nunc placerat pellentesque ornare."
             android:textAlignment="center"
-            android:textSize="14sp" />
+            android:textSize="20sp" />
 
         <TextView
             android:layout_width="match_parent"
@@ -95,7 +95,7 @@
             android:layout_weight="1"
             android:textColor="#ad6a6a"
             android:fontFamily="sans-serif-black"
-            android:textSize="20sp"
+            android:textSize="30sp"
             android:text="Who are we?" />
         />
 
@@ -107,9 +107,15 @@
             android:layout_weight="1"
             android:fontFamily="sans-serif-smallcaps"
             android:background="@color/textBackground"
-            android:textSize="14sp"
+            android:textSize="20sp"
             android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ut enim placerat, congue augue et, sagittis est. Vivamus quis arcu et metus mollis pellentesque ac quis lacus. Ut sit amet ipsum vehicula, tristique nisl sit amet, lobortis risus. Donec a augue sed ipsum scelerisque pellentesque. Donec sed urna scelerisque, ornare turpis ac, facilisis lacus. Sed lobortis mauris in nisl posuere, a malesuada ligula ullamcorper. Nunc placerat pellentesque ornare." />
         />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="50dp"
+            android:layout_weight="1"
+            />
     </LinearLayout>
     </ScrollView>
 </FrameLayout>
