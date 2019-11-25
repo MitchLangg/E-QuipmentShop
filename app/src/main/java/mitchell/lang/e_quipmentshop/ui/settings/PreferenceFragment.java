@@ -1,4 +1,6 @@
+/*
 package mitchell.lang.e_quipmentshop.ui.settings;
+
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;
 import android.os.Bundle;
@@ -10,6 +12,7 @@ import mitchell.lang.e_quipmentshop.R;
 import android.preference.PreferenceActivity;
 public class PreferenceFragment extends PreferenceActivity
 {
+    /*
     //create the fragment manager
     FragmentManager fm;
     //create the fragmentTransaction
@@ -29,7 +32,7 @@ public class PreferenceFragment extends PreferenceActivity
 
         /**
          * Create the on preference click listeners below
-         */
+         /*
         tipsPreference.setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {
             @Override
             public boolean onPreferenceClick(Preference preference) {
@@ -44,4 +47,4 @@ public class PreferenceFragment extends PreferenceActivity
     }
 
 }
-
+*/
