@@ -5,10 +5,44 @@
     android:layout_height="match_parent"
     tools:context=".ui.stickpick.stickPickFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/stickPickLinear"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+        <TextView
+            android:id="@+id/stickPickTitle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Stick Picker"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif-black"
+            android:padding="10dp"
+            android:textColor="#ad6a6a"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:typeface="serif"
+            android:background="@color/textBackground"/>
+
+        <SeekBar
+            android:id="@+id/seekBar"
+            android:padding="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:max="100"
+            android:background="@color/textBackground"
+            android:thumb="@drawable/thumb"
+            />
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+
 
 </FrameLayout>
