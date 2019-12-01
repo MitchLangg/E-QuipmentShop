@@ -2,26 +2,26 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:id="@+id/navigation_stickpick"
-        android:icon="@drawable/ic_shopping_basket_black_24dp"
+        android:icon="@drawable/hockey"
         android:title="@string/title_stickpick"
         />
     <item
         android:id="@+id/navigation_rules"
-        android:icon="@drawable/ic_content_paste_black_24dp"
+        android:icon="@drawable/documents"
         android:title="@string/title_rules" />
     <item
         android:id="@+id/navigation_home"
-        android:icon="@drawable/ic_home_black_24dp"
+        android:icon="@drawable/home"
         android:title="@string/title_home" />
 
     <item
         android:id="@+id/navigation_equipment"
-        android:icon="@drawable/ic_fitness_center_black_24dp"
+        android:icon="@drawable/helmeticon"
         android:title="@string/title_equipment" />
 
     <item
         android:id="@+id/navigation_settings"
-        android:icon="@drawable/ic_settings_black_24dp"
+        android:icon="@drawable/settings"
         android:title="@string/title_settings" />
 
 </menu>
