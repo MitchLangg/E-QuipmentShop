@@ -1,6 +1,7 @@
 package mitchell.lang.e_quipmentshop.ui.settings;
 
 import android.content.Context;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.net.Uri;
 import android.os.Bundle;
@@ -18,6 +19,7 @@ import android.widget.Button;
 
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
+import mitchell.lang.e_quipmentshop.MainActivity;
 import mitchell.lang.e_quipmentshop.R;
 import mitchell.lang.e_quipmentshop.ui.stickpick.stickPickFragment;
 
@@ -34,34 +36,13 @@ public class settingsFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
-        fm = getActivity().getSupportFragmentManager();
-        SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(getContext());
-        View view = inflater.inflate(R.layout.fragment_settings, container, false);
-            Button tipsButton = view.findViewById(R.id.tipsButton);
+        //externalize the view into a view
+        View view = inflater.inflate(R.layout.settings_activity, container, false);
 
-
-        tipsButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                FragmentTransaction transaction = fm.beginTransaction();
-                transaction.replace(R.id.content, new tipsListFragment());
-                transaction.addToBackStack(null);
-                transaction.commit();
-            }
-        });
+        //return the view
             return view;
         }
-/*
-        FragmentManager fm = getFragmentManager();
-        FragmentTransaction transaction = fm.beginTransaction();
-        View view = inflater.inflate(R.layout.fragment_settings, container, false);
-        transaction.replace(R.id.fragment_setting, new PreferenceFragment()).commit();
-        return view;
 
- */
-
-
-//////////////////https://developer.android.com/guide/topics/ui/settings#java//////////////////////////
     }
 
 
