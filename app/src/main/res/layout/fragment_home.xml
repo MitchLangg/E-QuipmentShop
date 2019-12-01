@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
@@ -29,7 +28,7 @@
             android:padding="10dp"
             android:textColor="#ad6a6a"
             android:textAlignment="center"
-            android:textSize="20sp"
+            android:textSize="30sp"
             android:typeface="serif" />
 
         <TextView
@@ -40,7 +39,7 @@
             android:textAlignment="center"
             android:background="@color/textBackground"
             android:textSize="14sp"
-            android:text="Hockey is Canada's official national winter sport and perhaps its greatest contribution to the world of sports. Canada is considered the birthplace of ice hockey, and Canadians generally regard the sport as their own. Over the last century, Canadian men, women, and children have passionately participated in hockey at all levels and have avidly watched the sport with great interest nationwide. One could argue that hockey is the sport that has united Canadians the most, especially in international competitions. Canadian players form the backbone of many teams in the National Hockey League and overseas leagues, and Canadian men and women have had considerable success in international competition."/>
+            android:text="Hockey is Canada's official national winter sport and perhaps its greatest contribution to the world of sports. Canada is considered the birthplace of ice hockey, and Canadians generally regard the sport as their own. Over the last century, Canadian men, women, and children have passionately participated in hockey at all levels and have avidly watched the sport with great interest nationwide. One could argue that hockey is the sport that has united Canadians the most, especially in international competitions. Canadian players form the backbone of many teams in the National Hockey League and overseas leagues, and Canadian men and women have had considerable success in international competition."/>/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -50,7 +49,7 @@
             android:textColor="#ad6a6a"
             android:text="What is this app?"
             android:textAlignment="center"
-            android:textSize="20sp"
+            android:textSize="30sp"
             android:typeface="serif"/>
 
         <TextView
@@ -62,7 +61,6 @@
             android:background="@color/textBackground"
             android:textSize="14sp"
             android:text="Our app E-Quipment Shop is designed to help inform new or experienced hockey players about the type of stick best suites their need. The stick picker is never before seen technology that will take in unique user input geared towards each individual player to select the best stick from our database of sticks that we offer to show you the best options out there that are designed for you specifically saving lots of time shopping around." />
-            />
 
         <TextView
             android:layout_width="match_parent"
@@ -72,7 +70,7 @@
             android:layout_weight="1"
             android:textColor="#ad6a6a"
             android:fontFamily="sans-serif-black"
-            android:textSize="20sp"
+            android:textSize="30sp"
             android:text="Why did we make this app?" />
 
         <TextView
@@ -94,9 +92,8 @@
             android:layout_weight="1"
             android:textColor="#ad6a6a"
             android:fontFamily="sans-serif-black"
-            android:textSize="20sp"
+            android:textSize="30sp"
             android:text="Who are we?" />
-        />
 
         <TextView
             android:layout_width="match_parent"
@@ -115,6 +112,12 @@
             android:layout_height="100dp"
             android:layout_weight="1" />
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="50dp"
+            android:layout_weight="1"
+            />
     </LinearLayout>
     </ScrollView>
 </FrameLayout>
