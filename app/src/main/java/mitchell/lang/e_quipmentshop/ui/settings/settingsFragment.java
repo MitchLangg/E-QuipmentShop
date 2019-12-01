@@ -60,6 +60,8 @@ public class settingsFragment extends Fragment {
 
  */
 
+
+//////////////////https://developer.android.com/guide/topics/ui/settings#java//////////////////////////
     }
 
 
