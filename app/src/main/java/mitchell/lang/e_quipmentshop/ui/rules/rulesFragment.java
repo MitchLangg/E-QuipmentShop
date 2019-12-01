@@ -48,6 +48,7 @@ public class rulesFragment extends Fragment {
         rules.add(new Rule("Spearing", "Spearing is the act of poking, stabbing, or attempting to poke or stab an opponent with the tip of the blade of the stick while holding the stick with one or both hands."));
         rules.add(new Rule("Tripping", "Tripping is the act of placing a stick, knee, foot, arm, hand or elbow in such a manner that causes his opponent to lose balance or fall."));
 
+        
         RecyclerView recyclerView = view.findViewById(R.id.ruleRecyclerView);
 
         recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
