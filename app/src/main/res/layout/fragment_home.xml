@@ -40,8 +40,7 @@
             android:textAlignment="center"
             android:background="@color/textBackground"
             android:textSize="14sp"
-            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ut enim placerat, congue augue et, sagittis est. Vivamus quis arcu et metus mollis pellentesque ac quis lacus. Ut sit amet ipsum vehicula, tristique nisl sit amet, lobortis risus. Donec a augue sed ipsum scelerisque pellentesque. Donec sed urna scelerisque, ornare turpis ac, facilisis lacus. Sed lobortis mauris in nisl posuere, a malesuada ligula ullamcorper. Nunc placerat pellentesque ornare. " />
-
+            android:text="Hockey is Canada's official national winter sport and perhaps its greatest contribution to the world of sports. Canada is considered the birthplace of ice hockey, and Canadians generally regard the sport as their own. Over the last century, Canadian men, women, and children have passionately participated in hockey at all levels and have avidly watched the sport with great interest nationwide. One could argue that hockey is the sport that has united Canadians the most, especially in international competitions. Canadian players form the backbone of many teams in the National Hockey League and overseas leagues, and Canadian men and women have had considerable success in international competition."/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -62,7 +61,7 @@
             android:textAlignment="center"
             android:background="@color/textBackground"
             android:textSize="14sp"
-            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ut enim placerat, congue augue et, sagittis est. Vivamus quis arcu et metus mollis pellentesque ac quis lacus. Ut sit amet ipsum vehicula, tristique nisl sit amet, lobortis risus. Donec a augue sed ipsum scelerisque pellentesque. Donec sed urna scelerisque, ornare turpis ac, facilisis lacus. Sed lobortis mauris in nisl posuere, a malesuada ligula ullamcorper. Nunc placerat pellentesque ornare. " />
+            android:text="Our app E-Quipment Shop is designed to help inform new or experienced hockey players about the type of stick best suites their need. The stick picker is never before seen technology that will take in unique user input geared towards each individual player to select the best stick from our database of sticks that we offer to show you the best options out there that are designed for you specifically saving lots of time shopping around." />
             />
 
         <TextView
@@ -83,7 +82,7 @@
             android:background="@color/textBackground"
             android:fontFamily="sans-serif-smallcaps"
             android:padding="10dp"
-            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ut enim placerat, congue augue et, sagittis est. Vivamus quis arcu et metus mollis pellentesque ac quis lacus. Ut sit amet ipsum vehicula, tristique nisl sit amet, lobortis risus. Donec a augue sed ipsum scelerisque pellentesque. Donec sed urna scelerisque, ornare turpis ac, facilisis lacus. Sed lobortis mauris in nisl posuere, a malesuada ligula ullamcorper. Nunc placerat pellentesque ornare."
+            android:text="Making our application was easy we knew that we wanted to build an app that could help everyone who has a passion for hockey. It was difficult at times to decide what we wanted to build but we knew we wanted to build some type of tool to help players of all ages select the best stick for them specifically. We knew this idea was great because of the amount of money that these sticks cost, you dont want to end up using a hockey stick you dont like or dosent suit your needs. The hockey stick is the main instrument of success on the ice and having one fitted perfectlly for you can make the difference in scoring a goal or making a good play"
             android:textAlignment="center"
             android:textSize="14sp" />
 
@@ -108,8 +107,14 @@
             android:fontFamily="sans-serif-smallcaps"
             android:background="@color/textBackground"
             android:textSize="14sp"
-            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ut enim placerat, congue augue et, sagittis est. Vivamus quis arcu et metus mollis pellentesque ac quis lacus. Ut sit amet ipsum vehicula, tristique nisl sit amet, lobortis risus. Donec a augue sed ipsum scelerisque pellentesque. Donec sed urna scelerisque, ornare turpis ac, facilisis lacus. Sed lobortis mauris in nisl posuere, a malesuada ligula ullamcorper. Nunc placerat pellentesque ornare." />
-        />
+            android:text="Mitch and Mitch are two programmers from Windsor Ontario and our candian roots definitely had some influence on what we wanted to create for our application. Building an app that all candians and hockey player alike could use with some type of purpose was important to us. Thats why the stick picker E-Quipment Shop was the route we decided to take. Building an app that you care about is easier than building something that has no value or meaning in your life. We agree that hockey brings people together and so we wanted to be apart of that."/>
+
+        <TextView
+            android:id="@+id/TextView"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_weight="1" />
+
     </LinearLayout>
     </ScrollView>
 </FrameLayout>
