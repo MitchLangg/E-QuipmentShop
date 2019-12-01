@@ -107,41 +107,71 @@ public class stickPickFragment extends Fragment {
             @Override
             public void onClick(View v) {
 
-              if(age <= 5 && heightCM <= 108 && weight <= 39) {
-                stickText.setText("Bauer Vapor Flylite Grip \n Curve: PM9 \n Flex: 30");
-                image.setImageResource(R.drawable.shin);
+              if(age <= 5 && heightCM <= 140 && weight <= 100) {
+                stickText.setText("Bauer Vapor Flylite Grip \n Curve: PM9 \n Flex: 30 \n Price: $99.99");
+                image.setImageResource(R.drawable.flylite2);
+                cheapText.setText("Warrior Covert QR EDGE \n Curve: W02 \n Flex: 30 \n Price: $69.99");
+                cheaperImage.setImageResource(R.drawable.covertqr);
               }
-                if(age <= 8 && age > 5 && heightCM <= 128 && heightCM > 108 && weight <= 56 && weight > 39) {
-                    stickText.setText("Bauer Vapor X60");
-                    image.setImageResource(R.drawable.chest);
+                if(age <= 8 && age > 5 && heightCM <= 160 && heightCM > 60 && weight <= 100 && weight > 30) {
+                    stickText.setText("Bauer Nexus 2N \n Curve: P92 \n Flex: 35 \n Price: $99.99");
+                    image.setImageResource(R.drawable.nexus2n);
+                    cheapText.setText("Easton Synergy 550 \n Curve: E3 \n Flex: 50 \n Price: $29.99");
+                    cheaperImage.setImageResource(R.drawable.synergy550);
                 }
-              if(age <= 10 && age > 8 && heightCM <= 138 && heightCM > 128 && weight <= 70 && weight > 56) {
-                  stickText.setText("Bauer Vapor X60");
-                  image.setImageResource(R.drawable.chest);
+              if(age <= 10 && age > 8 && heightCM <= 180 && heightCM > 100 && weight <= 150 && weight > 56) {
+                  cheapText.setText("CCM RIBCOR 64K \n Curve: P29 \n Flex: 50 \n Price: $59.99");
+                  cheaperImage.setImageResource(R.drawable.ribcor);
+                  stickText.setText("True A4.5 SBP \n Curve: P88 \n Flex: 45 \n Price: $99.99");
+                  image.setImageResource(R.drawable.truestick);
               }
-                if(age <= 12 && age > 10 && heightCM <= 149 && heightCM > 138 && weight <= 88 && weight > 70) {
-                    stickText.setText("Bauer Vapor X60");
-                    image.setImageResource(R.drawable.chest);
+                if(age <= 12 && age > 10 && heightCM <= 200 && heightCM > 110 && weight <= 200 && weight > 60) {
+                    stickText.setText("Sherwood Rekker M90 \n Curve: PP26 \n Flex: 55 \n Price: $194.99");
+                    image.setImageResource(R.drawable.rekker);
+                    cheapText.setText("WARRIOR ALPHA DX5 \n Curve: W03 \n Flex: 70/55 \n Price: $79.99");
+                    cheaperImage.setImageResource(R.drawable.alphadx5);
                 }
-                if(age <= 15 && age > 10 && heightCM <= 170 && heightCM > 149 && weight <= 123 && weight > 88) {
-                    stickText.setText("Bauer Vapor X70");
-                    image.setImageResource(R.drawable.elbow);
+                if(age <= 15 && age > 10 && heightCM <= 220 && heightCM > 130 && weight <= 230 && weight > 70) {
+                    stickText.setText("CCM Jetspeed \n Curve: P29 \n Flex: 65 \n Price: $224.99");
+                    image.setImageResource(R.drawable.jetspeed);
+                    cheapText.setText("Bauer Vapor X2.7 \n Curve: P88 \n Flex: 65 \n Price: $119.99");
+                    cheaperImage.setImageResource(R.drawable.vaporx2);
                 }
+                /*
                 if(age <= 16 && age > 15 && heightCM <= 173 && heightCM > 170 && weight <= 134 && weight > 123) {
-                    stickText.setText("Bauer Vapor X70");
-                    image.setImageResource(R.drawable.elbow);
+                    stickText.setText("Bauer Vapor 1X \n Curve: P88 \n Flex: 87 \n Price: $179.99");
+                    image.setImageResource(R.drawable.vapor1x);
+                    cheapText.setText("Bauer Vapor X900 \n Curve: P88 \n Flex: 87 \n Price: $99.99");
+                    cheaperImage.setImageResource(R.drawable.vaporx900);
                 }
-                if(age <= 18 && age > 16 && heightCM <= 175 && heightCM > 170 && weight <= 147 && weight > 123) {
-                    stickText.setText("Bauer Vapor X70");
-                    image.setImageResource(R.drawable.elbow);
+
+                 */
+                if(age <= 18 && age > 15 && heightCM <= 250 && heightCM > 150 && weight <= 240 && weight > 110) {
+                    stickText.setText("Warrior Covert QRE SuperLight \n Curve: W88 \n Flex: 100 \n Price: $259.99");
+                    image.setImageResource(R.drawable.covertqre);
+                    cheapText.setText("Warrior Covert QRL5 \n Curve: W71 \n Flex: 100 \n Price: $79.99");
+                    cheaperImage.setImageResource(R.drawable.qrl5);
                 }
+                /*
                 if(age <= 19 && age > 18 && heightCM <= 176 && heightCM > 175 && weight <= 152 && weight > 147) {
-                    stickText.setText("Bauer Vapor X70");
-                    image.setImageResource(R.drawable.elbow);
+                    stickText.setText("Bauer Supreme 2S Pro \n Curve: P88 \n Flex: 102 \n Price: $279.99");
+                    image.setImageResource(R.drawable.supreme2s);
+                    cheapText.setText("CCM Jetspeed 460 \n Curve: P88 \n Flex: 95 \n Price: $109.99");
+                    cheaperImage.setImageResource(R.drawable.jetspeed460);
                 }
-                if(age <= 20 && age > 15 && heightCM <= 177 && heightCM > 170 && weight <= 155 && weight > 123) {
-                    stickText.setText("Bauer Vapor X50 \n Curve: Kane \n Flex: 80 \n Link: linkliklinklink");
-                    image.setImageResource(R.drawable.helmet);
+                */
+
+                if(age <= 20 && age > 18 && heightCM <= 250 && heightCM > 140 && weight <= 250 && weight > 110) {
+                    stickText.setText("Warrior Alpha QX \n Curve: W88 \n Flex: 100 \n Price: $259.99");
+                    image.setImageResource(R.drawable.alphaqx);
+                    cheapText.setText("CCM Super Tacks \n Curve: P88 \n Flex: 95 \n Price: $109.99");
+                    cheaperImage.setImageResource(R.drawable.supertacks);
+                }
+                else {
+                    stickText.setText("Warrior Fantom QRE \n Curve: W28 \n Flex: 85 \n Price: $319.99");
+                    image.setImageResource(R.drawable.fantom);
+                    cheapText.setText("True A Series \n Curve: TC2 \n Flex: 75 \n Price: $119.99");
+                    cheaperImage.setImageResource(R.drawable.truea);
                 }
 
             }

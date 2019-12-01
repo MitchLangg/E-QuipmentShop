@@ -97,6 +97,19 @@
                 android:text="Submit!"
                 android:background="#ad6a6a"
                 />
+            <TextView
+                android:id="@+id/regularStickTitle"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Higher Price Stick: "
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-black"
+                android:padding="2dp"
+                android:textColor="#ad6a6a"
+                android:textAlignment="center"
+                android:textSize="26sp"
+                android:typeface="serif"
+                />
 
             <TextView
                 android:id="@+id/stickText"
@@ -105,7 +118,6 @@
                 android:text=""
                 android:layout_weight="1"
                 android:fontFamily="sans-serif-black"
-                android:padding="7dp"
                 android:textColor="#ad6a6a"
                 android:textAlignment="center"
                 android:textSize="26sp"
@@ -113,9 +125,24 @@
                 />
             <ImageView
                 android:id="@+id/image"
+                android:textAlignment="center"
+                android:layout_width="250dp"
+                android:layout_height="300dp"
+               />
+
+            <TextView
+                android:id="@+id/cheaperStickTitle"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-               />
+                android:text="Cheaper Stick: "
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-black"
+                android:padding="2dp"
+                android:textColor="#ad6a6a"
+                android:textAlignment="center"
+                android:textSize="26sp"
+                android:typeface="serif"
+                />
 
             <TextView
                 android:id="@+id/cheaperStickText"
@@ -124,7 +151,6 @@
                 android:text=""
                 android:layout_weight="1"
                 android:fontFamily="sans-serif-black"
-                android:padding="7dp"
                 android:textColor="#ad6a6a"
                 android:textAlignment="center"
                 android:textSize="26sp"
@@ -132,8 +158,10 @@
                 />
             <ImageView
                 android:id="@+id/cheaperImage"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:textAlignment="center"
+                android:layout_width="250dp"
+                android:layout_height="300dp"
+                android:paddingBottom="50dp"
                 />
 
 
