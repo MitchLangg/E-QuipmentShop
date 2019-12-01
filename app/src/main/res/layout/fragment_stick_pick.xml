@@ -52,10 +52,10 @@
                 android:layout_height="60dp" />
 
             <TextView
-                android:id="@+id/heightTitleFeet"
+                android:id="@+id/heightTitle"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Please select your height(feet)"
+                android:text="Please select your height(CM)"
                 android:layout_weight="1"
                 android:fontFamily="sans-serif-black"
                 android:padding="7dp"
@@ -66,28 +66,10 @@
                 />
 
             <NumberPicker
-                android:id="@+id/numberPickerHeightFeet"
+                android:id="@+id/numberPickerHeight"
                 android:layout_width="match_parent"
                 android:layout_height="60dp" />
 
-            <TextView
-                android:id="@+id/heightTitleInches"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:text="Please select your height(Inches)"
-                android:layout_weight="1"
-                android:fontFamily="sans-serif-black"
-                android:padding="7dp"
-                android:textColor="#ad6a6a"
-                android:textAlignment="center"
-                android:textSize="26sp"
-                android:typeface="serif"
-                />
-
-            <NumberPicker
-                android:id="@+id/numberPickerHeightInches"
-                android:layout_width="match_parent"
-                android:layout_height="60dp" />
 
             <TextView
                 android:id="@+id/weightTitle"
@@ -114,8 +96,46 @@
                 android:layout_height="match_parent"
                 android:text="Submit!"
                 android:background="#ad6a6a"
-
                 />
+
+            <TextView
+                android:id="@+id/stickText"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text=""
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-black"
+                android:padding="7dp"
+                android:textColor="#ad6a6a"
+                android:textAlignment="center"
+                android:textSize="26sp"
+                android:typeface="serif"
+                />
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+               />
+
+            <TextView
+                android:id="@+id/cheaperStickText"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text=""
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-black"
+                android:padding="7dp"
+                android:textColor="#ad6a6a"
+                android:textAlignment="center"
+                android:textSize="26sp"
+                android:typeface="serif"
+                />
+            <ImageView
+                android:id="@+id/cheaperImage"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+
 
         </LinearLayout>
     </ScrollView>
