@@ -1,22 +1,26 @@
-/*
+
 package mitchell.lang.e_quipmentshop.ui.settings;
 
-import android.app.FragmentManager;
 import android.app.FragmentTransaction;
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
-import androidx.fragment.app.Fragment;
 import android.preference.Preference;
 
+import androidx.fragment.app.FragmentManager;
+import androidx.preference.PreferenceFragmentCompat;
 import mitchell.lang.e_quipmentshop.R;
 
-import android.preference.PreferenceActivity;
-public class PreferenceFragment extends PreferenceActivity
+
+
+public class PreferenceFragment extends PreferenceFragmentCompat
 {
-    /*
     //create the fragment manager
     FragmentManager fm;
     //create the fragmentTransaction
     FragmentTransaction transaction;
+
+    String[] address = {"beercheer@gmail.com"};
 
     @Override
     public void onCreatePreferences(Bundle bundle, String s)
@@ -28,25 +32,33 @@ public class PreferenceFragment extends PreferenceActivity
         addPreferencesFromResource(R.xml.preferences);
 
         //create new preferences
-        Preference tipsPreference = tipsPreference("TIPS");
+       // Preference feedbackPreference = findPreference("feedback");
 
         /**
          * Create the on preference click listeners below
+         */
 
-         /*
-
-        tipsPreference.setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {
+/*
+        feedbackPreference.setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {
             @Override
             public boolean onPreferenceClick(Preference preference) {
-                transaction = fm.beginTransaction();
-                transaction.replace(R.id.fragment_setting, new settingsFragment());
-                transaction.addToBackStack(null);
-                transaction.commit();
-                return false;
+                Intent intent = new Intent(Intent.ACTION_SENDTO);
+                intent.setData(Uri.parse("mailto:"));
+                intent.putExtra(Intent.EXTRA_EMAIL,address);
+
+                if(intent.resolveActivity(getActivity().getPackageManager()) != null)
+                {
+                    startActivity(intent);
+                    return  true;
+                }
+                else
+                {
+                    return false;
+                }
+
             }
         });
-
+*/
     }
 
 }
-*/
