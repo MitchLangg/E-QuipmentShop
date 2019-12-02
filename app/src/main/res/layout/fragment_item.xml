@@ -47,17 +47,18 @@
             android:fontFamily="sans-serif-smallcaps"
             android:background="@color/textBackground"
             android:textSize="20sp"
-            android:text="description"/>
+            android:padding="10dp"
+            android:text="item description"/>
 
     </ScrollView>
 
     <TextView
-        android:id="@+id/spacer"
+        android:id="@+id/selector"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#d1be9b"
-        android:textAlignment="center"
         android:text="Select an Item:"
+        android:textAlignment="center"
         android:textColor="#ad6a6a"
         android:textSize="24sp" />
 
@@ -66,8 +67,9 @@
         android:layout_width="match_parent"
         android:layout_height="395dp"
         android:layout_weight="1"
-        android:textAlignment="center"
-        android:background="#f7f7f7">
+        android:background="#f7f7f7"
+        android:textAlignment="center">
 
     </ListView>
+
 </LinearLayout>

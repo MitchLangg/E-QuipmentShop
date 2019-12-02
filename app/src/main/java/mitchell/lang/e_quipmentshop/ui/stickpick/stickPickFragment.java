@@ -1,28 +1,17 @@
 package mitchell.lang.e_quipmentshop.ui.stickpick;
 
-
-import android.content.Context;
-import android.content.SharedPreferences;
-import android.net.Uri;
-
 import android.os.Bundle;
-
 import androidx.fragment.app.Fragment;
-
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.NumberPicker;
-import android.widget.SeekBar;
 import android.widget.TextView;
-import android.widget.Toast;
-
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 import mitchell.lang.e_quipmentshop.R;
-import mitchell.lang.e_quipmentshop.ui.settings.tipsListFragment;
 
 
 public class stickPickFragment extends Fragment {

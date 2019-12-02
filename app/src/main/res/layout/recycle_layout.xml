@@ -8,10 +8,10 @@
         android:id="@+id/name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/colorPrimaryDark"
+        android:background="#000000"
         android:text="Text"
         android:textAlignment="center"
-        android:textColor="#4CAF50"
+        android:textColor="@color/colorPrimary"
         android:textSize="60sp"
         app:fontFamily="sans-serif-black" />
 
@@ -19,12 +19,13 @@
         android:id="@+id/definition"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/colorPrimary"
+        android:background="@color/cardview_dark_background"
         android:text="Text"
         android:textAlignment="center"
         android:textAllCaps="false"
-        android:textColor="#4CAF50"
+        android:textColor="@color/colorPrimaryDark"
         android:textSize="20sp"
         android:textStyle="bold"
-        app:fontFamily="sans-serif-smallcaps" />
+        app:fontFamily="sans-serif-smallcaps"
+        android:paddingBottom="80dp"/>
 </LinearLayout>
