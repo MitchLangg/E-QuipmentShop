@@ -52,4 +52,12 @@
     <string name="learnerTitle">E-Quipment Learner</string>
     <string name="learnerDesc">item description</string>
     <string name="learnerSelect">Select an Item:</string>
+
+            <!--Stick Pick Strings-->
+    <string name="stickPickTitle">Higher Price Stick: </string>
+    <string name="cheaperStickPickText">Cheaper Stick: </string>
+
+
+        <!--Settings String-->
+    <string name="settingString">Settings Activity</string>
 </resources>
