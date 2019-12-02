@@ -2,7 +2,6 @@ package mitchell.lang.e_quipmentshop.ui.settings;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import androidx.fragment.app.Fragment;
-import android.preference.PreferenceFragment;
 import android.preference.PreferenceManager;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -11,7 +10,6 @@ import android.widget.Button;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 import mitchell.lang.e_quipmentshop.R;
-import mitchell.lang.e_quipmentshop.ui.stickpick.stickPickFragment;
 
 
 public class settingsFragment extends Fragment {

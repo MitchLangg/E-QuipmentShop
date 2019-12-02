@@ -16,7 +16,6 @@ import mitchell.lang.e_quipmentshop.ui.home.HomeFragment;
 import mitchell.lang.e_quipmentshop.ui.rules.rulesFragment;
 import mitchell.lang.e_quipmentshop.ui.settings.settingsFragment;
 import mitchell.lang.e_quipmentshop.ui.stickpick.stickPickFragment;
-import mitchell.lang.e_quipmentshop.ui.stickpick.stickShowFragment;
 
 public class MainActivity extends AppCompatActivity {
     FragmentManager fm;
