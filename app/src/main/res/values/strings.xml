@@ -24,4 +24,13 @@
     <string name="attachment_summary_on">Automatically download attachments for incoming emails
     </string>
     <string name="attachment_summary_off">Only download attachments when manually requested</string>
+
+
+    <string name="contactTitle">CONTACT</string>
+    <string name="feedbackTitle">EMAIL US</string>
+    <string name="feedbackSummary">Please email us if you have any problems!</string>
+    <string name="callTitle">CALL US</string>
+    <string name="callSummary">Give us a call if you are experiencing any issues!</string>
+    <string name="locationTitle">OUR LOCATION</string>
+    <string name="locationSummary">Come visit us at our headquarters!</string>
 </resources>
