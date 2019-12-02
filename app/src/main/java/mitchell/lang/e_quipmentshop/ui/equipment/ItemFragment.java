@@ -28,6 +28,7 @@ public class ItemFragment extends Fragment {
 
     ImageView itemDefinition;
     ListView listView;
+    TextView itemDescription;
 
 
     public ItemFragment() {
@@ -41,21 +42,22 @@ public class ItemFragment extends Fragment {
 
         itemDefinition = view.findViewById(R.id.itemDefinition);
         listView = view.findViewById(R.id.itemList);
+        itemDescription = view.findViewById(R.id.itemDescription);
 
         final ArrayList<ItemType> itemTypes = new ArrayList<>();
-        itemTypes.add(new ItemType("Helmet", R.drawable.helmet));
-        itemTypes.add(new ItemType("Mouth Guard", R.drawable.mouthguard));
-        itemTypes.add(new ItemType("Neck Guard", R.drawable.neckguard));
-        itemTypes.add(new ItemType("Chest Protector", R.drawable.chest));
-        itemTypes.add(new ItemType("Elbow Pads", R.drawable.elbow));
-        itemTypes.add(new ItemType("Gloves", R.drawable.gloves));
-        itemTypes.add(new ItemType("Pants", R.drawable.pants));
-        itemTypes.add(new ItemType("Jock Strap", R.drawable.jock));
-        itemTypes.add(new ItemType("Shin Guards", R.drawable.shin));
-        itemTypes.add(new ItemType("Skates", R.drawable.skates));
-        itemTypes.add(new ItemType("Stick", R.drawable.stick));
-        itemTypes.add(new ItemType("Default", R.drawable.stick));
-
+        itemTypes.add(new ItemType("Helmet", R.drawable.helmet, "Helmet"));
+        itemTypes.add(new ItemType("Mouth Guard", R.drawable.mouthguard, "Mouth Guard"));
+        itemTypes.add(new ItemType("Neck Guard", R.drawable.neckguard,"Neck Guard"));
+        itemTypes.add(new ItemType("Chest Protector", R.drawable.chest,"Chest Protector"));
+        itemTypes.add(new ItemType("Elbow Pads", R.drawable.elbow,"Elbow Pads"));
+        itemTypes.add(new ItemType("Gloves", R.drawable.gloves,"Gloves"));
+        itemTypes.add(new ItemType("Pants", R.drawable.pants,"Pants"));
+        itemTypes.add(new ItemType("Jock Strap", R.drawable.jock,"Jock Strap"));
+        itemTypes.add(new ItemType("Shin Guards", R.drawable.shin,"Shin Guards"));
+        itemTypes.add(new ItemType("Skates", R.drawable.skates,"Skates"));
+        itemTypes.add(new ItemType("Stick", R.drawable.stick,"Stick"));
+        itemTypes.add(new ItemType("", R.drawable.stick,""));
+        itemTypes.add(new ItemType("", R.drawable.stick,""));
 
         ArrayAdapter adapter = new ArrayAdapter(getContext(),
                 android.R.layout.simple_list_item_1, itemTypes);
@@ -70,9 +72,10 @@ public class ItemFragment extends Fragment {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 itemDefinition.setImageResource(itemTypes.get(position)
                         .getDefinition());
+                itemDescription.setText(itemTypes.get(position)
+                        .getDescription());
             }
         });
-
         return view;
     }
 
@@ -92,10 +95,7 @@ public class ItemFragment extends Fragment {
             }
             TextView name = convertView.findViewById(R.id.name);
             name.setText(item.getName());
-
             return  convertView;
         }
     }
-
-
 }
