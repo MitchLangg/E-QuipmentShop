@@ -32,13 +32,13 @@ public class PreferenceFragment extends PreferenceFragmentCompat
         addPreferencesFromResource(R.xml.preferences);
 
         //create new preferences
-        Preference feedbackPreference = findPreference("feedback");
+       // Preference feedbackPreference = findPreference("feedback");
 
         /**
          * Create the on preference click listeners below
          */
 
-
+/*
         feedbackPreference.setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {
             @Override
             public boolean onPreferenceClick(Preference preference) {
@@ -58,7 +58,7 @@ public class PreferenceFragment extends PreferenceFragmentCompat
 
             }
         });
-
+*/
     }
 
 }
