@@ -1,7 +1,12 @@
 package mitchell.lang.e_quipmentshop.ui.settings;
+
+import android.app.ActivityManager;
+import android.content.Context;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import androidx.fragment.app.Fragment;
+
 import android.preference.PreferenceManager;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -9,6 +14,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
+import mitchell.lang.e_quipmentshop.MainActivity;
 import mitchell.lang.e_quipmentshop.R;
 
 
@@ -24,31 +30,21 @@ public class settingsFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
-        fm = getActivity().getSupportFragmentManager();
-        SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(getContext());
-        View view = inflater.inflate(R.layout.fragment_settings, container, false);
-            Button tipsButton = view.findViewById(R.id.tipsButton);
-
-
-        tipsButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                FragmentTransaction transaction = fm.beginTransaction();
-                transaction.replace(R.id.content, new tipsListFragment());
-                transaction.addToBackStack(null);
-                transaction.commit();
-            }
-        });
-            return view;
-        }
-/*
+        //externalize the view into a view
         FragmentManager fm = getFragmentManager();
-        FragmentTransaction transaction = fm.beginTransaction();
-        View view = inflater.inflate(R.layout.fragment_settings, container, false);
-        transaction.replace(R.id.fragment_setting, new PreferenceFragment()).commit();
-        return view;
+        //create a new fragment transaction
+        FragmentTransaction transaction= fm.beginTransaction();
 
- */
+        //externalize the view into a view
+        View view = inflater.inflate(R.layout.fragment_settings, container, false);
+
+        //replace what is on the screen
+        transaction.replace(R.id.settingsFragment, new PreferenceFragment()).commit();
+
+
+        //return the view
+        return view;
+        }
 
     }
 

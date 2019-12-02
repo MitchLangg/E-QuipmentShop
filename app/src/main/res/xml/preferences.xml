@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+        <Preference
+            app:key="feedback"
+            android:title="@string/feedbackTitle"
+            app:summary="@string/feedbackSummary" />
+
+        <Preference
+            app:key="call"
+            android:title="@string/callTitle"
+            app:summary="@string/callSummary"/>
+
+        <Preference
+            app:key="location"
+            android:title="@string/locationTitle"
+            app:summary="@string/locationSummary"/>
+        <Preference
+            app:key="tips"
+            android:title="@string/tipsTitle"
+            app:summary="@string/tipsSummary"/>
+        <Preference
+            app:key="web"
+            android:title="@string/webTitle"
+            android:summary="@string/webSummary"/>
+
+</PreferenceScreen>
