@@ -10,22 +10,9 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="title_activity_settings">Settings</string>
 
-    <!-- Preference Titles -->
-    <string name="messages_header">Messages</string>
-    <string name="sync_header">Sync</string>
-
-    <!-- Messages Preferences -->
-    <string name="signature_title">Your signature</string>
-    <string name="reply_title">Default reply action</string>
-
-    <!-- Sync Preferences -->
-    <string name="sync_title">Sync email periodically</string>
-    <string name="attachment_title">Download incoming attachments</string>
-    <string name="attachment_summary_on">Automatically download attachments for incoming emails
-    </string>
-    <string name="attachment_summary_off">Only download attachments when manually requested</string>
 
 
+            <!--PREFERENCES STRINGS-->
     <string name="contactTitle">CONTACT</string>
     <string name="feedbackTitle">EMAIL US</string>
     <string name="feedbackSummary">Please email us if you have any problems!</string>
@@ -37,4 +24,40 @@
     <string name="tipsSummary">A few tips for hockey (Our little secret)</string>
     <string name="webTitle">CHECK US OUT ON FACEBOOK</string>
     <string name="webSummary">Follow us on facebook for updates and extra information!</string>
+    <string name="creditTitle">CREDITS</string>
+    <string name="creditSummary">Credits for the owners of the images that we did not create.</string>
+
+                <!--CREDITS STRINGS-->
+    <string name="credits">Credits:</string>
+    <string name="stickPickIcon">Stick Pick Icon - https://www.flaticon.com/authors/freepik</string>
+    <string name="equipmentIcon">Equipment Learner Icon - https://www.flaticon.com/authors/smashicons</string>
+    <string name="settingsIcon">Settings Icon - https://www.flaticon.com/authors/gregor-cresnar</string>
+    <string name="homeIcon">Home Icon - https://www.flaticon.com/authors/freepik</string>
+    <string name="rulesIcon">Rules Icon - https://www.flaticon.com/authors/wanicon</string>
+    <string name="sticksSite1">First Site used for sticks - https://www.sportchek.ca/categories/shop-by-sport/hockey/hockey-sticks.html?cid=search-hockey-sticks</string>
+    <string name="sticksSite2">Second Site used for sticks - https://www.hockeymonkey.com/guides/best-hockey-sticks-for-2018</string>
+    <string name="sticksSite3">Third Site used for sticks - https://www.prohockeylife.com/pages/hockey-sticks</string>
+
+                <!--Fragment_home String-->
+    <string name="title1">What is Hockey?</string>
+    <string name="desc1">Hockey is Canadas official national winter sport and perhaps its greatest contribution to the world of sports. Canada is considered the birthplace of ice hockey, and Canadians generally regard the sport as their own. Over the last century, Canadian men, women, and children have passionately participated in hockey at all levels and have avidly watched the sport with great interest nationwide. One could argue that hockey is the sport that has united Canadians the most, especially in international competitions. Canadian players form the backbone of many teams in the National Hockey League and overseas leagues, and Canadian men and women have had considerable success in international competition.</string>
+    <string name="title2">What is this app?</string>
+    <string name="desc2">Our app E-Quipment Shop is designed to help inform new or experienced hockey players about the type of stick best suites their need. The stick picker is never before seen technology that will take in unique user input geared towards each individual player to select the best stick from our database of sticks that we offer to show you the best options out there that are designed for you specifically saving lots of time shopping around.</string>
+    <string name="title3">Why did we make this app?</string>
+    <string name="desc3">Making our application was easy we knew that we wanted to build an app that could help everyone who has a passion for hockey. It was difficult at times to decide what we wanted to build but we knew we wanted to build some type of tool to help players of all ages select the best stick for them specifically. We knew this idea was great because of the amount of money that these sticks cost, you dont want to end up using a hockey stick you dont like or dosent suit your needs. The hockey stick is the main instrument of success on the ice and having one fitted perfectlly for you can make the difference in scoring a goal or making a good play</string>
+    <string name="title4">Who are we?</string>
+    <string name="desc4">Mitch and Mitch are two programmers from Windsor Ontario and our canadian roots definitely had some influence on what we wanted to create for our application. Building an app that all candians and hockey player alike could use with some type of purpose was important to us. Thats why the stick picker E-Quipment Shop was the route we decided to take. Building an app that you care about is easier than building something that has no value or meaning in your life. We agree that hockey brings people together and so we wanted to be apart of that.</string>
+
+            <!--Fragment_item String-->
+    <string name="learnerTitle">E-Quipment Learner</string>
+    <string name="learnerDesc">item description</string>
+    <string name="learnerSelect">Select an Item:</string>
+
+            <!--Stick Pick Strings-->
+    <string name="stickPickTitle">Higher Price Stick: </string>
+    <string name="cheaperStickPickText">Cheaper Stick: </string>
+
+
+        <!--Settings String-->
+    <string name="settingString">Settings Activity</string>
 </resources>

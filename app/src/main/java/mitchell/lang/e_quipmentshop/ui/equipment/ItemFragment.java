@@ -47,17 +47,17 @@ public class ItemFragment extends Fragment {
         itemDescription = view.findViewById(R.id.itemDescription);
 
         final ArrayList<ItemType> itemTypes = new ArrayList<>();
-        itemTypes.add(new ItemType("Helmet", R.drawable.helmet, "Helmet"));
-        itemTypes.add(new ItemType("Mouth Guard", R.drawable.mouthguard, "Mouth Guard"));
-        itemTypes.add(new ItemType("Neck Guard", R.drawable.neckguard,"Neck Guard"));
-        itemTypes.add(new ItemType("Chest Protector", R.drawable.chest,"Chest Protector"));
-        itemTypes.add(new ItemType("Elbow Pads", R.drawable.elbow,"Elbow Pads"));
-        itemTypes.add(new ItemType("Gloves", R.drawable.gloves,"Gloves"));
-        itemTypes.add(new ItemType("Pants", R.drawable.pants,"Pants"));
-        itemTypes.add(new ItemType("Jock Strap", R.drawable.jock,"Jock Strap"));
-        itemTypes.add(new ItemType("Shin Guards", R.drawable.shin,"Shin Guards"));
-        itemTypes.add(new ItemType("Skates", R.drawable.skates,"Skates"));
-        itemTypes.add(new ItemType("Stick", R.drawable.stick,"Stick"));
+        itemTypes.add(new ItemType("Helmet", R.drawable.helmet, "The Helmet is to protect your head and face while on the ice."));
+        itemTypes.add(new ItemType("Mouth Guard", R.drawable.mouthguard, "The mouth guard stops your teeth from smashing on each other."));
+        itemTypes.add(new ItemType("Neck Guard", R.drawable.neckguard,"The neck guard protects your neck from skate blades and puck hits."));
+        itemTypes.add(new ItemType("Chest Protector", R.drawable.chest,"The Chest protector helps prevents injury when hit by a puck or a person."));
+        itemTypes.add(new ItemType("Elbow Pads", R.drawable.elbow,"Elbow pads protect your elbows if you fall over."));
+        itemTypes.add(new ItemType("Gloves", R.drawable.gloves,"Gloves protect your hands from pucks."));
+        itemTypes.add(new ItemType("Pants", R.drawable.pants,"Pants protect your lower region from all kinds of damage."));
+        itemTypes.add(new ItemType("Jock Strap", R.drawable.jock,"A jock strap is used to protect your sensitive areas."));
+        itemTypes.add(new ItemType("Shin Guards", R.drawable.shin,"Shin guards protect your legs from getting hit by a puck."));
+        itemTypes.add(new ItemType("Skates", R.drawable.skates,"Skates are used to move around on the ice."));
+        itemTypes.add(new ItemType("Stick", R.drawable.stick,"A stick is used to handle the puck, you need one to play the sport."));
         itemTypes.add(new ItemType("", R.drawable.white,"ITEM DESCRIPTION"));
         itemTypes.add(new ItemType("", R.drawable.white,"ITEM DESCRIPTION"));
 

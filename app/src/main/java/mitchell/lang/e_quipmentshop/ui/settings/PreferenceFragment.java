@@ -1,22 +1,23 @@
 
 package mitchell.lang.e_quipmentshop.ui.settings;
 import android.content.Intent;
-import android.graphics.Color;
 import android.net.Uri;
 import android.os.Bundle;
-
-
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceFragmentCompat;
 import mitchell.lang.e_quipmentshop.R;
 
+
 /**
  * @author
  * @date
  * @description
  */
+
+import mitchell.lang.e_quipmentshop.ui.CreditsActivity;
+
 
 public class PreferenceFragment extends PreferenceFragmentCompat
 {
@@ -41,8 +42,10 @@ public class PreferenceFragment extends PreferenceFragmentCompat
        Preference feedbackPreference = findPreference("feedback");
        Preference callPref = findPreference("call");
        Preference locationPref = findPreference("location");
-       Preference tips = findPreference("tips");
        Preference webPref = findPreference("web");
+       Preference credits = findPreference("credits");
+       Preference tips = findPreference("tips");
+
 
         /**
          * Create the on preference click listeners below
@@ -115,6 +118,36 @@ public class PreferenceFragment extends PreferenceFragmentCompat
                     return false;
                 }
 
+            }
+        });
+
+        webPref.setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {
+            @Override
+            public boolean onPreferenceClick(Preference preference) {
+                Intent intent = new Intent(Intent.ACTION_VIEW);
+                intent.setData(Uri.parse("https://www.Facebook.com"));
+
+
+                if(intent.resolveActivity(getActivity().getPackageManager()) != null)
+                {
+                    startActivity(intent);
+                    return  true;
+                }
+                else
+                {
+                    return false;
+                }
+
+            }
+        });
+
+        credits.setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {
+            @Override
+            public boolean onPreferenceClick(Preference preference) {
+                Intent i = new Intent(getContext(), CreditsActivity.class);
+                startActivity(i);
+
+                return true;
             }
         });
         }
