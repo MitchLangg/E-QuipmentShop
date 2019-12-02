@@ -5,4 +5,5 @@
     <dimen name="homePadding">10dp</dimen>
     <dimen name="homeTitleSize">30sp</dimen>
     <dimen name="homeTextSize">18sp</dimen>
+    <dimen name="creditSize">16dp</dimen>
 </resources>

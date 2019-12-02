@@ -31,7 +31,8 @@
                 android:padding="5sp"
                 android:text="@string/stickPickIcon"
                 android:textColor="#000000"
-                android:textSize="16dp"/>
+                android:textSize="@dimen/creditSize"
+                />
 
             <TextView
                 android:layout_width="match_parent"
@@ -39,7 +40,8 @@
                 android:padding="5sp"
                 android:text="@string/equipmentIcon"
                 android:textColor="#000000"
-                android:textSize="16dp"/>
+                android:textSize="@dimen/creditSize"
+                />
 
             <TextView
                 android:layout_width="match_parent"
@@ -47,7 +49,8 @@
                 android:padding="5sp"
                 android:text="@string/settingsIcon"
                 android:textColor="#000000"
-                android:textSize="16dp"/>
+                android:textSize="@dimen/creditSize"
+                />
 
             <TextView
                 android:layout_width="match_parent"
@@ -55,15 +58,16 @@
                 android:padding="5sp"
                 android:text="@string/homeIcon"
                 android:textColor="#000000"
-                android:textSize="16dp"/>
-
+                android:textSize="@dimen/creditSize"
+                />
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:padding="5sp"
                 android:text="@string/rulesIcon"
                 android:textColor="#000000"
-                android:textSize="16dp"/>
+                android:textSize="@dimen/creditSize"
+                />
 
             <TextView
                 android:layout_width="match_parent"
@@ -71,7 +75,8 @@
                 android:padding="5sp"
                 android:text="@string/sticksSite1"
                 android:textColor="#000000"
-                android:textSize="16dp"/>
+                android:textSize="@dimen/creditSize"
+                />
 
             <TextView
                 android:layout_width="match_parent"
@@ -79,7 +84,8 @@
                 android:padding="5sp"
                 android:text="@string/sticksSite2"
                 android:textColor="#000000"
-                android:textSize="16dp"/>
+                android:textSize="@dimen/creditSize"
+                />
 
             <TextView
                 android:layout_width="match_parent"
@@ -87,7 +93,8 @@
                 android:padding="5sp"
                 android:text="@string/sticksSite3"
                 android:textColor="#000000"
-                android:textSize="16dp"/>
+                android:textSize="@dimen/creditSize"
+                />
         </LinearLayout>
     </ScrollView>
 </LinearLayout>
