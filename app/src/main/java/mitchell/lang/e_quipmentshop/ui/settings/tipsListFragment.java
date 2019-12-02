@@ -1,6 +1,4 @@
 package mitchell.lang.e_quipmentshop.ui.settings;
-
-
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -17,10 +15,12 @@ import androidx.recyclerview.widget.StaggeredGridLayoutManager;
 import mitchell.lang.e_quipmentshop.R;
 import mitchell.lang.e_quipmentshop.ui.JavaBean.Term;
 
-
 /**
- * A simple {@link Fragment} subclass.
+ * @author Mitch Todd
+ * @date Week 10-12
+ * @description Fragment for info placed inside the rules screen.
  */
+
 public class tipsListFragment extends Fragment {
     FragmentManager fm;
     SharedPreferences sharedPreferences;

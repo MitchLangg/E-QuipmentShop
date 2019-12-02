@@ -1,5 +1,4 @@
 package mitchell.lang.e_quipmentshop;
-
 import android.os.Bundle;
 import android.view.MenuItem;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
@@ -16,6 +15,12 @@ import mitchell.lang.e_quipmentshop.ui.home.HomeFragment;
 import mitchell.lang.e_quipmentshop.ui.rules.rulesFragment;
 import mitchell.lang.e_quipmentshop.ui.settings.settingsFragment;
 import mitchell.lang.e_quipmentshop.ui.stickpick.stickPickFragment;
+
+/**
+ * @author Mitch Todd / Mitch Lang
+ * @date
+ * @description
+ */
 
 public class MainActivity extends AppCompatActivity {
     FragmentManager fm;

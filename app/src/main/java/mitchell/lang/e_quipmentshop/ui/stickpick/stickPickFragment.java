@@ -1,5 +1,4 @@
 package mitchell.lang.e_quipmentshop.ui.stickpick;
-
 import android.os.Bundle;
 import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
@@ -13,6 +12,11 @@ import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 import mitchell.lang.e_quipmentshop.R;
 
+/**
+ * @author
+ * @date
+ * @description
+ */
 
 public class stickPickFragment extends Fragment {
 

@@ -1,22 +1,19 @@
 package mitchell.lang.e_quipmentshop.ui.settings;
-
-import android.app.ActivityManager;
-import android.content.Context;
-import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import androidx.fragment.app.Fragment;
-
-import android.preference.PreferenceManager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
-import mitchell.lang.e_quipmentshop.MainActivity;
 import mitchell.lang.e_quipmentshop.R;
 
+/**
+ * @author Mitch Todd
+ * @date Week 12-14
+ * @description Fragment for making the settings activity.
+ */
 
 public class settingsFragment extends Fragment {
     FragmentManager fm;

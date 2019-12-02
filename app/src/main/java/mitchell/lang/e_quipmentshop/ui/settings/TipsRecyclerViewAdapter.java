@@ -1,5 +1,4 @@
 package mitchell.lang.e_quipmentshop.ui.settings;
-
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -9,6 +8,12 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 import mitchell.lang.e_quipmentshop.R;
 import mitchell.lang.e_quipmentshop.ui.JavaBean.Term;
+
+/**
+ * @author Mitch Todd
+ * @date Week 10-13
+ * @description Fragment for the creating recycle view for the tips inside the settings page.
+ */
 
 public class TipsRecyclerViewAdapter extends RecyclerView.Adapter {
 

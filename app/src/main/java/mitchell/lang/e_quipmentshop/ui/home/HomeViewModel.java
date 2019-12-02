@@ -1,23 +1,16 @@
 package mitchell.lang.e_quipmentshop.ui.home;
 
-import androidx.lifecycle.LiveData;
-import androidx.lifecycle.MutableLiveData;
-import androidx.lifecycle.ViewModel;
+/**
+ * @author Mitch Todd
+ * @date Week 6-15
+ * @description Fragment for main home page with hockey info. Linked to the fragment_home.xml layout
+ *              ViewModel for the scrolling main load up page.
+ */
 
-public class HomeViewModel extends ViewModel {
-
-    private MutableLiveData<String> mText;
-    private MutableLiveData<String> titleText;
+public class HomeViewModel{
 
     public HomeViewModel() {
-        mText = new MutableLiveData<>();
-        mText.setValue("This is home fragment");
-        titleText = new MutableLiveData<>();
-        titleText.setValue("Hockey");
-    //test
+
     }
 
-    public LiveData<String> getText() {
-        return mText;
-    }
 }

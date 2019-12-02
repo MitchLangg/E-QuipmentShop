@@ -10,6 +10,12 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import mitchell.lang.e_quipmentshop.R;
 
+/**
+ * @author Mitch Todd / Mitch Lang
+ * @date Week 6-15
+ * @description Fragment for main home page with hockey info. Linked to the fragment_home.xml layout
+ */
+
 public class HomeFragment extends Fragment {
 
     private HomeViewModel homeViewModel;

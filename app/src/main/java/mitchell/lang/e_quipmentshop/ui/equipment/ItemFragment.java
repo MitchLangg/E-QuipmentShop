@@ -18,6 +18,13 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import mitchell.lang.e_quipmentshop.R;
+
+/**
+ * @author Mitch Todd
+ * @date Week 8-14
+ * @description Fragment for the equipment learning page. Linked to the fragment_item.xml layout
+ */
+
 /**
  * A simple {@link Fragment} subclass.
  */

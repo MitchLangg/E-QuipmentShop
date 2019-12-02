@@ -1,5 +1,12 @@
 package mitchell.lang.e_quipmentshop.ui.equipment;
 
+/**
+ * @author Mitch Todd
+ * @date Week 8-14
+ * @description Fragment for the equipment learning page. Linked to the fragment_item.xml layout
+ *              getters and setters for the selections available.
+ */
+
 public class ItemType {
     private String name;
     private int images;

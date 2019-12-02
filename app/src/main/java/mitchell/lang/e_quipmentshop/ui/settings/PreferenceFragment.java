@@ -1,7 +1,5 @@
 
 package mitchell.lang.e_quipmentshop.ui.settings;
-
-
 import android.content.Intent;
 import android.graphics.Color;
 import android.net.Uri;
@@ -14,7 +12,11 @@ import androidx.preference.Preference;
 import androidx.preference.PreferenceFragmentCompat;
 import mitchell.lang.e_quipmentshop.R;
 
-
+/**
+ * @author
+ * @date
+ * @description
+ */
 
 public class PreferenceFragment extends PreferenceFragmentCompat
 {

@@ -10,6 +10,11 @@ import androidx.recyclerview.widget.RecyclerView;
 import mitchell.lang.e_quipmentshop.R;
 import mitchell.lang.e_quipmentshop.ui.JavaBean.Rule;
 
+/**
+ * @author Mitch Todd
+ * @date Week 10-12
+ * @description Fragment for the info inside of the equipment learner.
+ */
 
 public class rulesFragment extends Fragment {
 

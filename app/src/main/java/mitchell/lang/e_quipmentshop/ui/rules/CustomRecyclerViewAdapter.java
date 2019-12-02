@@ -1,6 +1,4 @@
 package mitchell.lang.e_quipmentshop.ui.rules;
-
-
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -11,7 +9,11 @@ import androidx.recyclerview.widget.RecyclerView;
 import mitchell.lang.e_quipmentshop.R;
 import mitchell.lang.e_quipmentshop.ui.JavaBean.Rule;
 
-
+/**
+ * @author
+ * @date
+ * @description
+ */
 
 public class CustomRecyclerViewAdapter extends RecyclerView.Adapter {
 
