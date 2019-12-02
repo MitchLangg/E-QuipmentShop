@@ -48,4 +48,8 @@
     <string name="title4">Who are we?</string>
     <string name="desc4">Mitch and Mitch are two programmers from Windsor Ontario and our canadian roots definitely had some influence on what we wanted to create for our application. Building an app that all candians and hockey player alike could use with some type of purpose was important to us. Thats why the stick picker E-Quipment Shop was the route we decided to take. Building an app that you care about is easier than building something that has no value or meaning in your life. We agree that hockey brings people together and so we wanted to be apart of that.</string>
 
+            <!--Fragment_item String-->
+    <string name="learnerTitle">E-Quipment Learner</string>
+    <string name="learnerDesc">item description</string>
+    <string name="learnerSelect">Select an Item:</string>
 </resources>
