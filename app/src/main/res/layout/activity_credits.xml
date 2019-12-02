@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".ui.CreditsActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="5sp"
+                android:text="@string/credits"
+                android:textAllCaps="true"
+                android:textColor="#000000"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="5sp"
+                android:text="@string/stickPickIcon"
+                android:textColor="#000000"
+                android:textSize="16dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="5sp"
+                android:text="@string/equipmentIcon"
+                android:textColor="#000000"
+                android:textSize="16dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="5sp"
+                android:text="@string/settingsIcon"
+                android:textColor="#000000"
+                android:textSize="16dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="5sp"
+                android:text="@string/homeIcon"
+                android:textColor="#000000"
+                android:textSize="16dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="5sp"
+                android:text="@string/rulesIcon"
+                android:textColor="#000000"
+                android:textSize="16dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="5sp"
+                android:text="@string/sticksSite1"
+                android:textColor="#000000"
+                android:textSize="16dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="5sp"
+                android:text="@string/sticksSite2"
+                android:textColor="#000000"
+                android:textSize="16dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="5sp"
+                android:text="@string/sticksSite3"
+                android:textColor="#000000"
+                android:textSize="16dp"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -25,5 +25,9 @@
             app:key="web"
             android:title="@string/webTitle"
             android:summary="@string/webSummary"/>
+        <Preference
+            app:key="credits"
+            android:title="@string/creditTitle"
+            android:summary="@string/creditSummary"/>
 
 </PreferenceScreen>

@@ -13,7 +13,7 @@ import androidx.fragment.app.FragmentTransaction;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceFragmentCompat;
 import mitchell.lang.e_quipmentshop.R;
-
+import mitchell.lang.e_quipmentshop.ui.CreditsActivity;
 
 
 public class PreferenceFragment extends PreferenceFragmentCompat
@@ -39,8 +39,10 @@ public class PreferenceFragment extends PreferenceFragmentCompat
        Preference feedbackPreference = findPreference("feedback");
        Preference callPref = findPreference("call");
        Preference locationPref = findPreference("location");
-       Preference tips = findPreference("tips");
        Preference webPref = findPreference("web");
+       Preference tips = findPreference("tips");
+       Preference credits = findPreference("credits");
+
 
         /**
          * Create the on preference click listeners below
@@ -113,6 +115,36 @@ public class PreferenceFragment extends PreferenceFragmentCompat
                     return false;
                 }
 
+            }
+        });
+
+        webPref.setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {
+            @Override
+            public boolean onPreferenceClick(Preference preference) {
+                Intent intent = new Intent(Intent.ACTION_VIEW);
+                intent.setData(Uri.parse("https://www.Facebook.com"));
+
+
+                if(intent.resolveActivity(getActivity().getPackageManager()) != null)
+                {
+                    startActivity(intent);
+                    return  true;
+                }
+                else
+                {
+                    return false;
+                }
+
+            }
+        });
+
+        credits.setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {
+            @Override
+            public boolean onPreferenceClick(Preference preference) {
+                Intent i = new Intent(getContext(), CreditsActivity.class);
+                startActivity(i);
+
+                return true;
             }
         });
         }
