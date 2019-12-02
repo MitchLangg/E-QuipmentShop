@@ -6,8 +6,7 @@
         <Preference
             app:key="feedback"
             android:title="@string/feedbackTitle"
-            app:summary="@string/feedbackSummary"
-            />
+            app:summary="@string/feedbackSummary" />
 
         <Preference
             app:key="call"
@@ -19,7 +18,12 @@
             android:title="@string/locationTitle"
             app:summary="@string/locationSummary"/>
         <Preference
-            app:key="test"
-            android:title="test"/>
+            app:key="tips"
+            android:title="@string/tipsTitle"
+            app:summary="@string/tipsSummary"/>
+        <Preference
+            app:key="web"
+            android:title="@string/webTitle"
+            android:summary="@string/webSummary"/>
 
 </PreferenceScreen>

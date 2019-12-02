@@ -33,4 +33,8 @@
     <string name="callSummary">Give us a call if you are experiencing any issues!</string>
     <string name="locationTitle">OUR LOCATION</string>
     <string name="locationSummary">Come visit us at our headquarters!</string>
+    <string name="tipsTitle">HOCKEY TIPS</string>
+    <string name="tipsSummary">A few tips for hockey (Our little secret)</string>
+    <string name="webTitle">CHECK US OUT ON FACEBOOK</string>
+    <string name="webSummary">Follow us on facebook for updates and extra information!</string>
 </resources>

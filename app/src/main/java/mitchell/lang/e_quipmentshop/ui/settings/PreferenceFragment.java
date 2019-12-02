@@ -39,14 +39,15 @@ public class PreferenceFragment extends PreferenceFragmentCompat
        Preference feedbackPreference = findPreference("feedback");
        Preference callPref = findPreference("call");
        Preference locationPref = findPreference("location");
-       Preference test = findPreference("test");
+       Preference tips = findPreference("tips");
+       Preference webPref = findPreference("web");
 
         /**
          * Create the on preference click listeners below
          */
 
 
-        test.setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {
+        tips.setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {
             @Override
             public boolean onPreferenceClick(Preference preference) {
                 transaction = fm.beginTransaction();
@@ -76,6 +77,44 @@ public class PreferenceFragment extends PreferenceFragmentCompat
 
                 }
             });
+
+        locationPref.setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {
+            @Override
+            public boolean onPreferenceClick(Preference preference) {
+                Uri location = Uri.parse("geo:0,0?q=42,-83(St clair college");
+                Intent intent = new Intent(Intent.ACTION_VIEW);
+                intent.setData(location);
+
+                if(intent.resolveActivity(getActivity().getPackageManager()) != null)
+                {
+                    startActivity(intent);
+                    return  true;
+                }
+                else
+                {
+                    return false;
+                }
+            }
+        });
+        callPref.setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {
+            @Override
+            public boolean onPreferenceClick(Preference preference) {
+                Intent intent = new Intent(Intent.ACTION_VIEW);
+                intent.setData(Uri.parse("tel:+15199920043"));
+
+
+                if(intent.resolveActivity(getActivity().getPackageManager()) != null)
+                {
+                    startActivity(intent);
+                    return  true;
+                }
+                else
+                {
+                    return false;
+                }
+
+            }
+        });
         }
     }
 
