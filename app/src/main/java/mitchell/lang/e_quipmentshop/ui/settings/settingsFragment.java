@@ -23,7 +23,7 @@ import androidx.fragment.app.FragmentTransaction;
 import mitchell.lang.e_quipmentshop.R;
 
 /**
- * @author Mitch Todd
+ * @author Mitch Todd/Mitch Lang
  * @date Week 12-14
  * @description Fragment for making the settings activity.
  */

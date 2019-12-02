@@ -13,9 +13,9 @@ import androidx.fragment.app.FragmentTransaction;
 import mitchell.lang.e_quipmentshop.R;
 
 /**
- * @author
- * @date
- * @description
+ * @author Mitch Lang
+ * @date Week 14
+ * @description Created the stick pick special feature with full functionality
  */
 
 public class stickPickFragment extends Fragment {

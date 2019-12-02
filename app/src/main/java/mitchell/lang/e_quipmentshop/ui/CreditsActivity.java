@@ -5,6 +5,11 @@ import mitchell.lang.e_quipmentshop.R;
 
 import android.os.Bundle;
 
+/**
+ * @author mitchlang
+ * @date 01/12/2019
+ * @desc The activity for the credits page located in the settings fragment.
+ */
 public class CreditsActivity extends AppCompatActivity {
 
     @Override

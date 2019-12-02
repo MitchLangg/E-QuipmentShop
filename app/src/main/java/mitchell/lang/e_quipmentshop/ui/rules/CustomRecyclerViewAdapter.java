@@ -10,9 +10,9 @@ import mitchell.lang.e_quipmentshop.R;
 import mitchell.lang.e_quipmentshop.ui.JavaBean.Rule;
 
 /**
- * @author
- * @date
- * @description
+ * @author Mitch Todd/Mitch Lang
+ * @date Week 12-14
+ * @description Recycler View Adapter for rules page.
  */
 
 public class CustomRecyclerViewAdapter extends RecyclerView.Adapter {

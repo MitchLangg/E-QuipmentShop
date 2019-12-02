@@ -5,9 +5,9 @@ import android.preference.PreferenceFragment;
 import mitchell.lang.e_quipmentshop.R;
 
 /**
- * @author
- * @date
- * @description
+ * @author Mitch Lang
+ * @date 01/12/2019
+ * @description Settings activity
  */
 
 public class SettingsActivity extends PreferenceActivity {

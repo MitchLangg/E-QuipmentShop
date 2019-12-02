@@ -11,9 +11,9 @@ import mitchell.lang.e_quipmentshop.R;
 
 
 /**
- * @author
- * @date
- * @description
+ * @author Mitch Lang
+ * @date 01/12/2019
+ * @description Preference manager for the settings page
  */
 
 import mitchell.lang.e_quipmentshop.ui.CreditsActivity;
