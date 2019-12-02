@@ -1,5 +1,6 @@
 package mitchell.lang.e_quipmentshop.ui.settings;
 import android.content.SharedPreferences;
+import android.graphics.drawable.AnimationDrawable;
 import android.os.Bundle;
 import androidx.fragment.app.Fragment;
 import android.preference.PreferenceManager;
@@ -7,6 +8,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ImageView;
+
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 import mitchell.lang.e_quipmentshop.R;
@@ -15,7 +18,22 @@ import mitchell.lang.e_quipmentshop.R;
 public class settingsFragment extends Fragment {
     FragmentManager fm;
     SharedPreferences sharedPreferences;
+    AnimationDrawable rocketAnimation;
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.fragment_settings);
 
+        ImageView rocketImage = (ImageView) findViewById(R.id.puck);
+        rocketImage.setBackgroundResource(R.drawable.puck);
+        rocketAnimation = (AnimationDrawable) rocketImage.getBackground();
+
+        rocketImage.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                rocketAnimation.start();
+            }
+        });
+    }
     public settingsFragment() {
         // Required empty public constructor
     }
