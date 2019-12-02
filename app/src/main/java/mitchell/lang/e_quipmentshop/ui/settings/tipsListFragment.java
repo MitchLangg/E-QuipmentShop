@@ -16,7 +16,6 @@ import androidx.recyclerview.widget.RecyclerView;
 import androidx.recyclerview.widget.StaggeredGridLayoutManager;
 import mitchell.lang.e_quipmentshop.R;
 import mitchell.lang.e_quipmentshop.ui.JavaBean.Term;
-import mitchell.lang.e_quipmentshop.ui.rules.CustomRecyclerViewAdapter;
 
 
 /**

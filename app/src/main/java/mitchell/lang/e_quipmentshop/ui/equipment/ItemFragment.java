@@ -2,7 +2,6 @@ package mitchell.lang.e_quipmentshop.ui.equipment;
 
 
 import android.content.Context;
-import android.graphics.Color;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -19,8 +18,6 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import mitchell.lang.e_quipmentshop.R;
-
-
 /**
  * A simple {@link Fragment} subclass.
  */
@@ -30,10 +27,8 @@ public class ItemFragment extends Fragment {
     ListView listView;
     TextView itemDescription;
 
-
     public ItemFragment() {
     }
-
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -56,8 +51,8 @@ public class ItemFragment extends Fragment {
         itemTypes.add(new ItemType("Shin Guards", R.drawable.shin,"Shin Guards"));
         itemTypes.add(new ItemType("Skates", R.drawable.skates,"Skates"));
         itemTypes.add(new ItemType("Stick", R.drawable.stick,"Stick"));
-        itemTypes.add(new ItemType("Default", R.drawable.stick,"Default"));
-
+        itemTypes.add(new ItemType("", R.drawable.white,"ITEM DESCRIPTION"));
+        itemTypes.add(new ItemType("", R.drawable.white,"ITEM DESCRIPTION"));
 
         ArrayAdapter adapter = new ArrayAdapter(getContext(),
                 android.R.layout.simple_list_item_1, itemTypes);
@@ -76,8 +71,6 @@ public class ItemFragment extends Fragment {
                         .getDescription());
             }
         });
-
-
         return view;
     }
 
@@ -97,10 +90,7 @@ public class ItemFragment extends Fragment {
             }
             TextView name = convertView.findViewById(R.id.name);
             name.setText(item.getName());
-
             return  convertView;
         }
     }
-
-
 }
