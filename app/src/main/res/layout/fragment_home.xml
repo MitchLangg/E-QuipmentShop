@@ -24,54 +24,56 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:fontFamily="sans-serif-black"
-            android:text="What is Hockey?"
-            android:padding="10dp"
-            android:textColor="#ad6a6a"
+            android:text="@string/title1"
+            android:padding="@dimen/homePadding"
+            android:textColor="@color/homeText"
             android:textAlignment="center"
-            android:textSize="30sp"
+            android:textSize="@dimen/homeTitleSize"
             android:typeface="serif" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:fontFamily="sans-serif-smallcaps"
-            android:padding="10dp"
+            android:padding="@dimen/homePadding"
             android:textAlignment="center"
             android:background="@color/textBackground"
-            android:textSize="14sp"
-            android:text="Hockey is Canada's official national winter sport and perhaps its greatest contribution to the world of sports. Canada is considered the birthplace of ice hockey, and Canadians generally regard the sport as their own. Over the last century, Canadian men, women, and children have passionately participated in hockey at all levels and have avidly watched the sport with great interest nationwide. One could argue that hockey is the sport that has united Canadians the most, especially in international competitions. Canadian players form the backbone of many teams in the National Hockey League and overseas leagues, and Canadian men and women have had considerable success in international competition."/>/>
+            android:textSize="@dimen/homeTextSize"
+            android:text="@string/desc1"/>
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:fontFamily="sans-serif-black"
-            android:padding="10dp"
-            android:textColor="#ad6a6a"
-            android:text="What is this app?"
+            android:padding="@dimen/homePadding"
+            android:textColor="@color/homeText"
+            android:text="@string/title2"
             android:textAlignment="center"
-            android:textSize="30sp"
+            android:textSize="@dimen/homeTitleSize"
             android:typeface="serif"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:fontFamily="sans-serif-smallcaps"
-            android:padding="10dp"
+            android:padding="@dimen/homePadding"
             android:textAlignment="center"
             android:background="@color/textBackground"
-            android:textSize="14sp"
-            android:text="Our app E-Quipment Shop is designed to help inform new or experienced hockey players about the type of stick best suites their need. The stick picker is never before seen technology that will take in unique user input geared towards each individual player to select the best stick from our database of sticks that we offer to show you the best options out there that are designed for you specifically saving lots of time shopping around." />
+            android:textSize="@dimen/homeTextSize"
+            android:text="@string/desc2"
+            />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:padding="10dp"
+            android:padding="@dimen/homePadding"
             android:textAlignment="center"
             android:layout_weight="1"
-            android:textColor="#ad6a6a"
+            android:textColor="@color/homeText"
             android:fontFamily="sans-serif-black"
-            android:textSize="30sp"
-            android:text="Why did we make this app?" />
+            android:textSize="@dimen/homeTitleSize"
+            android:text="@string/title3"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -79,33 +81,32 @@
             android:layout_weight="1"
             android:background="@color/textBackground"
             android:fontFamily="sans-serif-smallcaps"
-            android:padding="10dp"
-            android:text="Making our application was easy we knew that we wanted to build an app that could help everyone who has a passion for hockey. It was difficult at times to decide what we wanted to build but we knew we wanted to build some type of tool to help players of all ages select the best stick for them specifically. We knew this idea was great because of the amount of money that these sticks cost, you dont want to end up using a hockey stick you dont like or dosent suit your needs. The hockey stick is the main instrument of success on the ice and having one fitted perfectlly for you can make the difference in scoring a goal or making a good play"
+            android:padding="@dimen/homePadding"
             android:textAlignment="center"
-            android:textSize="14sp" />
+            android:textSize="@dimen/homeTextSize"
+            android:text="@string/desc3"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:padding="10dp"
+            android:padding="@dimen/homePadding"
             android:textAlignment="center"
             android:layout_weight="1"
-            android:textColor="#ad6a6a"
+            android:textColor="@color/homeText"
             android:fontFamily="sans-serif-black"
-            android:textSize="30sp"
-            android:text="Who are we?" />
+            android:textSize="@dimen/homeTitleSize"
+            android:text="@string/title4" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:padding="10dp"
+            android:padding="@dimen/homePadding"
             android:textAlignment="center"
             android:layout_weight="1"
             android:fontFamily="sans-serif-smallcaps"
             android:background="@color/textBackground"
-            android:textSize="14sp"
-            android:text="Mitch and Mitch are two programmers from Windsor Ontario and our candian roots definitely had some influence on what we wanted to create for our application. Building an app that all candians and hockey player alike could use with some type of purpose was important to us. Thats why the stick picker E-Quipment Shop was the route we decided to take. Building an app that you care about is easier than building something that has no value or meaning in your life. We agree that hockey brings people together and so we wanted to be apart of that."/>
-
+            android:textSize="@dimen/homeTextSize"
+            android:text="@string/desc4"/>
         <TextView
             android:id="@+id/TextView"
             android:layout_width="match_parent"

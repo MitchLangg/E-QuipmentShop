@@ -46,8 +46,8 @@
             android:layout_weight="1"
             android:fontFamily="sans-serif-smallcaps"
             android:background="@color/textBackground"
-            android:textSize="20sp"
-            android:padding="10dp"
+            android:textSize="18sp"
+            android:padding="5dp"
             android:text="item description"/>
 
     </ScrollView>

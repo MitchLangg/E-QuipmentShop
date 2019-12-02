@@ -3,11 +3,8 @@ package mitchell.lang.e_quipmentshop.ui.settings;
 
 
 import android.content.Intent;
-import android.graphics.Color;
 import android.net.Uri;
 import android.os.Bundle;
-
-
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 import androidx.preference.Preference;
@@ -40,8 +37,8 @@ public class PreferenceFragment extends PreferenceFragmentCompat
        Preference callPref = findPreference("call");
        Preference locationPref = findPreference("location");
        Preference webPref = findPreference("web");
-       Preference tips = findPreference("tips");
        Preference credits = findPreference("credits");
+       Preference tips = findPreference("tips");
 
 
         /**
